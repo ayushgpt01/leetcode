@@ -15,6 +15,20 @@ public class Printer {
     System.out.println("]");
   }
 
+  // Overload to handle two-dimensional object arrays (e.g., String[][])
+  public static void print(int[][] arr) {
+    if (arr == null) {
+      System.out.println("null");
+      return;
+    }
+    System.out.println("[");
+    for (int[] row : arr) {
+      System.out.print("  ");
+      print(row);
+    }
+    System.out.println("]");
+  }
+
   // For primitive double arrays
   public static void print(double[] arr) {
     System.out.print("[");
@@ -101,6 +115,20 @@ public class Printer {
       if (i < arr.length - 1) {
         System.out.print(", ");
       }
+    }
+    System.out.println("]");
+  }
+
+  // Overload to handle two-dimensional object arrays (e.g., String[][])
+  public static <T> void print(T[][] arr) {
+    if (arr == null) {
+      System.out.println("null");
+      return;
+    }
+    System.out.println("[");
+    for (T[] row : arr) {
+      System.out.print("  ");
+      print(row);
     }
     System.out.println("]");
   }
