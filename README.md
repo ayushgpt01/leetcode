@@ -1,6 +1,6 @@
 # LeetCode Practice – Ayush Gupta
 
-This repository contains my solutions to algorithm and data structure problems from LeetCode. The goal is to build long-term pattern recognition and problem-solving speed across all core topics.
+This repository contains my solutions to algorithm and data structure problems from LeetCode. I am using this repo as a notebook to keep track of my progress and have all solutions in a single place.
 
 ---
 
