@@ -1,4 +1,4 @@
-# LeetCode Practice – Ayush Gupta
+# LeetCode Practice
 
 This repository contains my solutions to algorithm and data structure problems from LeetCode. I am using this repo as a notebook to keep track of my progress and have all solutions in a single place.
 
